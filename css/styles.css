@@ -10,10 +10,9 @@ html{
 }
 
 body{
-  background: #1e1e1e;
+  background: #87CEEB; /* azul cielo */
   color: #222;
 }
-
 .header{
   position: sticky;
   top: 0;
