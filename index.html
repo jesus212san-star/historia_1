@@ -1,77 +1,90 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Pacto de Varsovia</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <title>Pacto de Varsovia</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-<header>
-    <h1>Pacto de Varsovia</h1>
-    <nav>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#que-es">¿Qué es?</a></li>
-            <li><a href="#historia">Historia</a></li>
-            <li><a href="#caracteristicas">Características</a></li>
-            <li><a href="#paises">Países miembros</a></li>
-            <li><a href="#fin">Fin del pacto</a></li>
-        </ul>
-    </nav>
+<header class="header">
+  <div class="logo">
+    <img src="img/logo.png">
+    <div>
+      <h1>Pacto de Varsovia</h1>
+      <p>Historia de la Guerra Fría</p>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <a href="#inicio">Inicio</a>
+    <a href="#que-es">¿Qué es?</a>
+    <a href="#historia">Historia</a>
+    <a href="#caracteristicas">Características</a>
+    <a href="#paises">Países</a>
+    <a href="#fin">Final</a>
+  </nav>
 </header>
 
-<main>
-
-<section id="inicio">
-    <h2>Inicio</h2>
-    <p>El Pacto de Varsovia fue una alianza militar creada durante la Guerra Fría entre países socialistas liderados por la Unión Soviética.</p>
-    <img src="img/varsovia1.jpg" alt="Inicio">
+<section class="hero" id="inicio">
+  <div class="hero-texto">
+    <span class="badge">Guerra Fría</span>
+    <h2>Alianza del Este</h2>
+    <p>El Pacto de Varsovia fue una alianza militar creada en 1955 por la Unión Soviética y sus aliados.</p>
+    <a href="#que-es" class="btn">Aprender más</a>
+  </div>
+  <div class="hero-imagen">
+    <img src="img/varsovia1.jpg">
+  </div>
 </section>
 
-<section id="que-es">
-    <h2>¿Qué es el Pacto de Varsovia?</h2>
-    <article>
-        <p>Fue un tratado de cooperación militar firmado en 1955 como respuesta a la OTAN.</p>
-        <img src="img/varsovia2.jpg" alt="Concepto">
-    </article>
+<section class="seccion" id="que-es">
+  <div class="card">
+    <h2>¿Qué es?</h2>
+    <p>Fue un tratado militar creado como respuesta a la OTAN durante la Guerra Fría.</p>
+    <img src="img/varsovia2.jpg">
+  </div>
 </section>
 
-<section id="historia">
+<section class="seccion" id="historia">
+  <div class="card">
     <h2>Historia</h2>
-    <p>Se creó en plena Guerra Fría para consolidar el bloque socialista en Europa del Este.</p>
-    <img src="img/varsovia3.jpg" alt="Historia">
+    <p>Se formó en Europa del Este bajo el liderazgo de la Unión Soviética.</p>
+    <img src="img/varsovia3.jpg">
+  </div>
 </section>
 
-<section id="caracteristicas">
+<section class="seccion" id="caracteristicas">
+  <div class="card">
     <h2>Características</h2>
     <ul>
-        <li>Alianza militar</li>
-        <li>Liderada por la URSS</li>
-        <li>Defensa mutua</li>
-        <li>Control político y militar</li>
+      <li>Alianza militar</li>
+      <li>Control soviético</li>
+      <li>Defensa conjunta</li>
     </ul>
-    <img src="img/varsovia4.jpg" alt="Características">
+    <img src="img/varsovia4.jpg">
+  </div>
 </section>
 
-<section id="paises">
+<section class="seccion" id="paises">
+  <div class="card">
     <h2>Países miembros</h2>
-    <p>Incluía países como Polonia, Hungría, Checoslovaquia, Alemania Oriental, Bulgaria y Rumania.</p>
-    <img src="img/varsovia5.jpg" alt="Países">
+    <p>Incluía Polonia, Hungría, Alemania Oriental, Bulgaria, Rumania y más.</p>
+    <img src="img/varsovia5.jpg">
+  </div>
 </section>
 
-<section id="fin">
-    <h2>Fin del Pacto</h2>
-    <p>El pacto se disolvió en 1991 tras la caída del bloque soviético.</p>
-    <img src="img/varsovia6.jpg" alt="Fin">
+<section class="seccion" id="fin">
+  <div class="card">
+    <h2>Fin del pacto</h2>
+    <p>Se disolvió en 1991 con la caída de la Unión Soviética.</p>
+    <img src="img/varsovia6.jpg">
+  </div>
 </section>
 
-</main>
-
-<footer>
-    <p>Proyecto Historia - Pacto de Varsovia 2026</p>
+<footer class="footer">
+  Proyecto Historia 2026
 </footer>
 
-<script src="js/app.js"></script>
 </body>
 </html>
